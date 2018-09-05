@@ -1,2 +1,2 @@
-# Vinci-Fontend
+# Vinci-Frontend
 Frontend rep for Vinci web-app
