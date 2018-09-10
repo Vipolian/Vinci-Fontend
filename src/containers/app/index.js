@@ -16,6 +16,15 @@ const App = () => (
       </div>
     </header>
 
+    <nav>
+      <ul>
+        <li>Курсы</li>
+        <li>Хаб</li>
+        <li>Мероприятия</li>
+        <li>О нас</li>
+      </ul>
+    </nav>
+
     <main>
       <Route exact path="/" component={Catalogue} />
       <Route exact path="/catalogue" component={Catalogue} />
@@ -23,6 +32,6 @@ const App = () => (
       <Route exact path="/profile" component={Profile} />
     </main>
   </div>
-)
+);
 
 export default App
